@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>JobScout — Vagas</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand"><div class="logo">JS</div><div><div class="title">JobScout</div></div></div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="vagas.html">Vagas</a>
+        <a href="buscador.html">Buscador</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Vagas recentes</h2>
+        <div class="job-list" style="margin-top:12px">
+          <article class="job"><div style="display:flex;gap:12px;align-items:center"><img src="assets/images/company1.svg" width="48" height="48" style="border-radius:8px"/><div><div style="font-weight:700">React Developer</div><div style="color:var(--muted)">Remote Co • Pleno</div></div></div><div style="display:flex;gap:8px;align-items:center"><div class="tag">Remoto</div><a class="btn" href="buscador.html">Candidatar</a></div></article>
+
+          <article class="job"><div style="display:flex;gap:12px;align-items:center"><img src="assets/images/company2.svg" width="48" height="48" style="border-radius:8px"/><div><div style="font-weight:700">Data Engineer</div><div style="color:var(--muted)">DataCorp • Sênior</div></div></div><div style="display:flex;gap:8px;align-items:center"><div class="tag">Híbrido</div><a class="btn" href="buscador.html">Candidatar</a></div></article>
+
+          <article class="job"><div style="display:flex;gap:12px;align-items:center"><div class="pulse">M</div><div><div style="font-weight:700">Marketing Analyst</div><div style="color:var(--muted)">Marketly • Júnior</div></div></div><div style="display:flex;gap:8px;align-items:center"><div class="tag">Presencial</div><a class="btn" href="buscador.html">Candidatar</a></div></article>
+        </div>
+      </section>
+
+      <section style="margin-top:18px" class="card">
+        <h3>Filtrar por</h3>
+        <div style="margin-top:8px" class="form-row">
+          <select><option>Todos os níveis</option><option>Estágio</option><option>Júnior</option><option>Pleno</option><option>Sênior</option></select>
+          <select><option>Qualquer local</option><option>Remoto</option><option>Presencial</option><option>Híbrido</option></select>
+        </div>
+      </section>
+
+      <footer class="footer">© JobScout</footer>
+    </main>
+  </div>
+<script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>JobScout — Home</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">JS</div>
+        <div>
+          <div class="title">JobScout</div>
+          <div style="font-size:13px;color:var(--muted)">Seu portal de empregos — tema escuro</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="vagas.html">Vagas</a>
+        <a href="buscador.html">Buscador</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero card">
+        <div class="hero-left">
+          <h1>Encontre vagas que combinam com você</h1>
+          <p class="lead">Busque por cargo, tecnologia ou empresa. Plataforma leve, escura e focada em usabilidade noturna.</p>
+
+          <div class="searchbar">
+            <input class="input" placeholder="Ex.: Desenvolvedor React, Marketing, Estágio" />
+            <button class="btn">Buscar</button>
+          </div>
+
+          <div class="feature-grid">
+            <div class="feature"><strong>Rápido</strong><div class="search-hint" style="color:var(--muted)">Carregamento instantâneo</div></div>
+            <div class="feature"><strong>Seguro</strong><div class="search-hint" style="color:var(--muted)">Privacidade de dados</div></div>
+            <div class="feature"><strong>Responsivo</strong><div class="search-hint" style="color:var(--muted)">Funciona em todos dispositivos</div></div>
+          </div>
+        </div>
+
+        <aside style="display:flex;flex-direction:column;gap:12px;align-items:stretch">
+          <div style="height:240px;border-radius:12px;overflow:hidden;background:#061421;display:flex;align-items:center;justify-content:center">
+            <!-- hero image -->
+            <img src="assets/images/hero.svg" alt="Ilustração JobScout" style="width:100%;height:100%;object-fit:cover" />
+          </div>
+
+          <div class="card" style="padding:12px">
+            <h4 style="margin:0 0 8px">Vagas em destaque</h4>
+            <div class="job-list">
+              <div class="job"><div style="display:flex;gap:12px;align-items:center"><div class="pulse">G</div><div><div style="font-weight:700">Frontend Developer</div><div style="color:var(--muted)">Globex • Pleno</div></div></div><div class="tag">Remoto</div></div>
+              <div class="job"><div style="display:flex;gap:12px;align-items:center"><div class="pulse">A</div><div><div style="font-weight:700">Analista de Dados</div><div style="color:var(--muted)">AvaTech • Sênior</div></div></div><div class="tag">Híbrido</div></div>
+              <div class="job"><div style="display:flex;gap:12px;align-items:center"><div class="pulse">S</div><div><div style="font-weight:700">Estágio em Marketing</div><div style="color:var(--muted)">Startly • Júnior</div></div></div><div class="tag">Presencial</div></div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section style="margin-top:18px" class="card">
+        <h3 style="margin:0 0 8px">Como funciona</h3>
+        <p class="lead">Cadastre seu currículo, salve buscas favoritas e aplique com um clique. Ideal para quem prefere leituras confortáveis em ambientes escuros.</p>
+      </section>
+
+      <section style="margin-top:18px" class="card">
+        <h3 style="margin:0 0 8px">Empresas parceiras</h3>
+        <div style="display:flex;gap:12px;align-items:center">
+          <img src="assets/images/company1.svg" width="64" height="64" alt="Empresa 1"/>
+          <img src="assets/images/company2.svg" width="64" height="64" alt="Empresa 2"/>
+        </div>
+      </section>
+
+      <footer class="footer">© JobScout — tema escuro inovador • contato@jobscout.example</footer>
+    </main>
+  </div>
+<script src="assets/script.js"></script>
+</body>
+</html>
