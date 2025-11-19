@@ -44,3 +44,31 @@ textarea{min-height:120px}
   .grid-3{grid-template-columns:1fr}
   .feature-grid{grid-template-columns:1fr}
 }
+
+body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+        #chat {
+            width: 400px;
+            margin: 40px auto;
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .msg {
+            margin: 10px 0;
+        }
+        .user {
+            color: #4CAF50;
+        }
+        .bot {
+            color: #03A9F4;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
